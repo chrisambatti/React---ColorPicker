@@ -1,0 +1,18 @@
+react
+react-dom
+
+These are the dependencies required to run a ReactJS project. You can use this requirements.txt file to ensure that anyone who wants to run your project has the necessary dependencies installed. 
+
+To generate this file, you can run the following command in your project directory, assuming you have npm installed:
+
+npm list --depth=0
+
+This will list all the dependencies used in your project, and then you can manually add them to the requirements.txt file. 
+
+Alternatively, if you are using a package manager like Yarn, you can generate the requirements.txt file by running:
+
+yarn list --depth=0 --pattern
+
+This will output the dependencies in a format suitable for the requirements.txt file. 
+
+Make sure to update this file if you add or remove any dependencies in your project.
