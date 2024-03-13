@@ -1,16 +1,14 @@
+Color Picker Project with ReactJS
 
-
-# Color Picker Project with ReactJS
-
-## Description
-This project is a simple color picker application built using ReactJS. It allows users to select colors from a palette and see the selected color's hexadecimal code.
+Description
+This project is a simple color picker application built using ReactJS. It allows users to select colors from a palette and create a gradient background by specifying the degree of the gradient and the colors to be included.
 
 Features
-- Choose colors from a palette
-- Display the hexadecimal code of the selected color
-- Easy to use and intuitive user interface
-
-Installation
+- Choose colors from a palette to create a gradient background.
+- Adjust the degree of the gradient to control its angle.
+- Real-time preview of the gradient background.
+- Easy-to-use interface.
+ Installation
 To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
@@ -43,11 +41,12 @@ To run this project locally, follow these steps:
 
 5. Open your browser and go to `http://localhost:3000` to view the application.
 
-## Usage
-- Click on any color from the palette to select it.
-- The hexadecimal code of the selected color will be displayed below the palette.
+Usage
+- Adjust the degree slider to specify the angle of the gradient.
+- Select colors by clicking on the color input fields and choosing a color from the color picker.
+- Click the "Click" button to apply the gradient background.
 
- Contributing
+Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
@@ -59,6 +58,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
- Acknowledgements
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
